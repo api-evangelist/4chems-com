@@ -1,4 +1,4 @@
-# 4chems-com
+# 4chems
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-4chems-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://4chems.com/
+4chems provides EU‑hosted AI‑enhanced services for chemical regulatory software such as IUCLID, CHESAR and QSAR Toolbox. They offer managed hosting, migration, and AI connectors that enable model‑based assessments and compliance workflows. The company serves consultants and firms handling REACH registration, biocides, plant protection and other chemical safety regulations, delivering cloud‑based instances of these specialist tools with expert support and integration options.
+
+**Areas:** Chemical · Regulatory · AI · Hosting · Consulting · EU
+
+## 4chems on APIs.io
+
+Everything profiled for 4chems is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/4chems-com/](https://apis.io/providers/4chems-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (14)
+
+- [4chems Authz API](https://apis.io/apis/4chems-com/4chems-com-authz-api/) — The authz API from 4chems — 4 operation(s) for authz.
+- [4chems Billing API](https://apis.io/apis/4chems-com/4chems-com-billing-api/) — The billing API from 4chems — 1 operation(s) for billing.
+- [4chems Catalog API](https://apis.io/apis/4chems-com/4chems-com-catalog-api/) — The catalog API from 4chems — 4 operation(s) for catalog.
+- [4chems Consents API](https://apis.io/apis/4chems-com/4chems-com-consents-api/) — The consents API from 4chems — 1 operation(s) for consents.
+- [4chems Customer API](https://apis.io/apis/4chems-com/4chems-com-customer-api/) — The customer API from 4chems — 1 operation(s) for customer.
+- [4chems Infra Operations API](https://apis.io/apis/4chems-com/4chems-com-infra-operations-api/) — The infra-operations API from 4chems — 4 operation(s) for infra-operations.
+- [4chems Infrastructure API](https://apis.io/apis/4chems-com/4chems-com-infrastructure-api/) — The infrastructure API from 4chems — 4 operation(s) for infrastructure.
+- [4chems Inquiries API](https://apis.io/apis/4chems-com/4chems-com-inquiries-api/) — The inquiries API from 4chems — 2 operation(s) for inquiries.
+- [4chems Invitations API](https://apis.io/apis/4chems-com/4chems-com-invitations-api/) — The invitations API from 4chems — 3 operation(s) for invitations.
+- [4chems Onboarding API](https://apis.io/apis/4chems-com/4chems-com-onboarding-api/) — The onboarding API from 4chems — 14 operation(s) for onboarding.
+- [4chems Operations API](https://apis.io/apis/4chems-com/4chems-com-operations-api/) — The operations API from 4chems — 4 operation(s) for operations.
+- [4chems Reference API](https://apis.io/apis/4chems-com/4chems-com-reference-api/) — The reference API from 4chems — 1 operation(s) for reference.
+- [4chems Tenants API](https://apis.io/apis/4chems-com/4chems-com-tenants-api/) — The tenants API from 4chems — 2 operation(s) for tenants.
+- [4chems Trials API](https://apis.io/apis/4chems-com/4chems-com-trials-api/) — The trials API from 4chems — 5 operation(s) for trials.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [4Chems Com Agentic Access](https://apis.io/agentic-access/4chems-com/4chems-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BillingIn](https://apis.io/schemas/4chems-com/4chems-com-billing-in/)
+- [BillingOut](https://apis.io/schemas/4chems-com/4chems-com-billing-out/)
+- [OperationInfraOut](https://apis.io/schemas/4chems-com/4chems-com-operation-infra-out/)
+- [TemplateOut](https://apis.io/schemas/4chems-com/4chems-com-template-out/)
+- [TemplateV1Out](https://apis.io/schemas/4chems-com/4chems-com-template-v1-out/)
+- [TrialOut](https://apis.io/schemas/4chems-com/4chems-com-trial-out/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [4Chems Com Context](https://apis.io/jsonld/4chems-com/4chems-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [4chems API Rules](https://apis.io/rules/4chems-com/4chems-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [4Chems Com Authentication](https://apis.io/security/4chems-com/4chems-com-authentication/)
+- [4Chems Com Domain Security](https://apis.io/security/4chems-com/4chems-com-domain-security/)
+- [4Chems Com Vulnerability Disclosure](https://apis.io/security/4chems-com/4chems-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.4chems.com/)
+- [Pricing](https://www.4chems.com/tags/pricing/)
+- [Support](https://www.4chems.com/contact/)
+- [Security](https://www.4chems.com/tags/security/)
+- [Terms of service](https://www.4chems.com/imprint)
+- [Privacy policy](https://www.4chems.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 45.0** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 23.1 |
+| Access clarity | 31.6 |
+
+**Agent readiness 40.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/4chems-com/](https://apis.io/providers/4chems-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 4chems: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/4chems-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
