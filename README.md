@@ -66,7 +66,7 @@
 
 4chems provides EU‑hosted AI‑enhanced services for chemical regulatory software such as IUCLID, CHESAR and QSAR Toolbox. They offer managed hosting, migration, and AI connectors that enable model‑based assessments and compliance workflows. The company serves consultants and firms handling REACH registration, biocides, plant protection and other chemical safety regulations, delivering cloud‑based instances of these specialist tools with expert support and integration options.
 
-**Areas:** Chemical · Regulatory · AI · Hosting · Consulting · EU
+**Areas:** Chemicals · Regulatory · Artificial Intelligence · Hosting · Consulting · EU
 
 ## 4chems on APIs.io
 
@@ -93,22 +93,48 @@ Everything profiled for 4chems is published on APIs.io rather than in this repos
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [4chems-com-mcp.yml](https://apis.io/servers/4chems-com/4chems-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [4Chems Com Agentic Access](https://apis.io/agentic-access/4chems-com/4chems-com-agentic-access/)
+- [4chems Agentic Access](https://apis.io/agentic-access/4chems-com/4chems-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (34)
 
 The data models the API reads and writes.
 
+- [AccessRequestApprovedOut](https://apis.io/schemas/4chems-com/4chems-com-access-request-approved-out/)
+- [AssignmentIn](https://apis.io/schemas/4chems-com/4chems-com-assignment-in/)
+- [AssignmentOut](https://apis.io/schemas/4chems-com/4chems-com-assignment-out/)
 - [BillingIn](https://apis.io/schemas/4chems-com/4chems-com-billing-in/)
 - [BillingOut](https://apis.io/schemas/4chems-com/4chems-com-billing-out/)
+- [ConsentIn](https://apis.io/schemas/4chems-com/4chems-com-consent-in/)
+- [ConsentOut](https://apis.io/schemas/4chems-com/4chems-com-consent-out/)
+- [DeviceChallengeOut](https://apis.io/schemas/4chems-com/4chems-com-device-challenge-out/)
+- [EmailNotification](https://apis.io/schemas/4chems-com/4chems-com-email-notification/)
+- [EnrichmentOut](https://apis.io/schemas/4chems-com/4chems-com-enrichment-out/)
+- [InquiryChallengeOut](https://apis.io/schemas/4chems-com/4chems-com-inquiry-challenge-out/)
+- [InquiryIn](https://apis.io/schemas/4chems-com/4chems-com-inquiry-in/)
+- [InquiryReceivedOut](https://apis.io/schemas/4chems-com/4chems-com-inquiry-received-out/)
+- [InquiryVerifyIn](https://apis.io/schemas/4chems-com/4chems-com-inquiry-verify-in/)
+- [InvitationCreatedOut](https://apis.io/schemas/4chems-com/4chems-com-invitation-created-out/)
+- [InvitationIn](https://apis.io/schemas/4chems-com/4chems-com-invitation-in/)
+- [InvitationOut](https://apis.io/schemas/4chems-com/4chems-com-invitation-out/)
+- [KillSwitchOut](https://apis.io/schemas/4chems-com/4chems-com-kill-switch-out/)
+- [KillSwitchPatchIn](https://apis.io/schemas/4chems-com/4chems-com-kill-switch-patch-in/)
+- [LegalEntityTypeOut](https://apis.io/schemas/4chems-com/4chems-com-legal-entity-type-out/)
+- [MembersListOut](https://apis.io/schemas/4chems-com/4chems-com-members-list-out/)
 - [OperationInfraOut](https://apis.io/schemas/4chems-com/4chems-com-operation-infra-out/)
-- [TemplateOut](https://apis.io/schemas/4chems-com/4chems-com-template-out/)
-- [TemplateV1Out](https://apis.io/schemas/4chems-com/4chems-com-template-v1-out/)
-- [TrialOut](https://apis.io/schemas/4chems-com/4chems-com-trial-out/)
+- [OperationOut](https://apis.io/schemas/4chems-com/4chems-com-operation-out/)
+- [RoutingOut](https://apis.io/schemas/4chems-com/4chems-com-routing-out/)
+- [SelfServiceTenantCreateIn](https://apis.io/schemas/4chems-com/4chems-com-self-service-tenant-create-in/)
+- …and 9 more published on APIs.io
 
 #### JSON-LD (1)
 
@@ -126,9 +152,9 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [4Chems Com Authentication](https://apis.io/security/4chems-com/4chems-com-authentication/)
-- [4Chems Com Domain Security](https://apis.io/security/4chems-com/4chems-com-domain-security/)
-- [4Chems Com Vulnerability Disclosure](https://apis.io/security/4chems-com/4chems-com-vulnerability-disclosure/)
+- [4chems Authentication](https://apis.io/security/4chems-com/4chems-com-authentication/)
+- [4chems Domain Security](https://apis.io/security/4chems-com/4chems-com-domain-security/)
+- [4chems Vulnerability Disclosure](https://apis.io/security/4chems-com/4chems-com-vulnerability-disclosure/)
 
 ## Where to find this API
 
@@ -143,32 +169,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 45.0** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 37.8** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
+| Discoverability | 83.9 |
 | Contract quality | 58.6 |
-| Contract governance | 79.1 |
-| Operational transparency | 10.5 |
-| Developer ergonomics | 23.1 |
-| Access clarity | 31.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 18.5 |
+| Access clarity | 29.8 |
 
-**Agent readiness 40.4** — agent-native
+**Agent readiness 30.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
 | Error Semantics | verified |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -179,6 +205,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
